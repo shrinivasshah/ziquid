@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafb;
+}
+
+@import url(./Gilroy-Light.otf);
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: sticky;
+  background-color: #f9fafb;
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15);
+  z-index: 10;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: inherit;
+  line-height: 100px;
+}
+
+nav .get_started button {
+  line-height: 50px;
+  width: 150px;
+  background-color: #141414;
+  color: #f9fafb;
+  border-radius: 10px;
+  border: none;
+  transition: 1.3s;
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15);
+}
+
+nav .get_started button:hover {
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15);
+  background: linear-gradient(146.82deg, #65a9e6 4.18%, #5c9ae0 90.5%);
+}
+
+nav img {
+  width: 150px;
+}
+
+.main {
+  min-height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.second_right {
+  margin-top: -100px;
+  margin-left: 100px;
+}
+/* 
+.wrap-2 {
+  position: fixed;
+  z-index: -30;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#438ee1),
+    to(#973999)
+  );
+  background: linear-gradient(to bottom right, #ff512f, #dd2476);
+}
+
+#top_flex {
+  margin-top: 20vh;
+} */
+/* 
+.first_left {
+  width: 35%;
+}
+
+.first_left h1 {
+  margin: -90px 0 0 0;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.first_right {
+  text-align: center;
+  width: 45%;
+  background: url("./Union.png");
+  background-position: center top;
+  background-size: 100%;
+  border: none;
+  border-radius: 70%;
+}
+
+.first_right img {
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  background: #60a1e371;
+  box-shadow: 0px 20px 30px -10px rgba(40, 154, 255, 0.15);
+}
+*/
+
+.title {
+  font-family: Gilroy;
+  font-size: 4em;
+}
+
+.crypto_details {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #7a8094;
+}
+
+.buttonIn {
+  margin: 20px 0px 20px 0px;
+  width: 300px;
+  position: relative;
+}
+
+#enter {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15);
+  border-radius: 15px;
+}
+#enter::-webkit-input-placeholder {
+  padding-left: 20px;
+}
+
+.buttonIn button {
+  position: absolute;
+  top: 7px;
+  width: 100px;
+  right: 7px;
+  z-index: 2;
+  border: none;
+
+  height: 40px;
+  cursor: pointer;
+  color: white;
+
+  background: linear-gradient(146.82deg, #65a9e6 4.18%, #5c9ae0 90.5%);
+  border-radius: 10px;
+}
+
+.second {
+  min-height: 60vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.margin_col {
+  margin-top: 20vh;
+}
+
+.custom_col {
+  height: 80%;
+}
+
+.text_blue {
+  color: #5c9ae0;
+}
+
+.third {
+  margin-bottom: 10vh;
+}
+
+.fourth {
+  min-height: 20vh;
+  width: 80vw;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 45px 41px rgba(7, 29, 52, 0.03);
+  border-radius: 18px;
+  margin-bottom: 35vh;
+}
+
+.padd {
+  padding-top: 100px;
+}
+
+.fifth {
+  margin-bottom: -30vh;
+}
+.small_width {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.details_new {
+  font-family: Gilroy;
+  margin-top: 30px;
+}
+
+.container_cus {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 100px;
+  height: 400px;
+  width: 400px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(28px);
+  /* Note: backdrop-filter has minimal browser support */
+  position: relative;
+  -moz-box-shadow: 0px 0px 7px #eeeeee;
+  -webkit-box-shadow: 0px 0px 7px #ebebeb;
+  box-shadow: 0px 0px 7px #ececec;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+
+}
+
+.img-holder {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  width: 70%;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+.ttile-card {
+  color: #1f556d;
+}
+
+.sixth{
+  margin-bottom: 20vh;
+}
+
+
+.seventh{
+  min-height: 70vh;
+  width: 70vw;
+  margin:0 auto;
+}
+
+
+.form-control{
+  background: transparent;
+  border: none;
+  width: 70%;
+}
+
+input:focus{
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+hr{
+  width: 70%;
+}
