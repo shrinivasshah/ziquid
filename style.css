@@ -262,6 +262,11 @@ nav img {
   margin:0 auto;
 }
 
+form{
+  height: 500px;
+  width: 400px;
+  background:#fff;
+}
 
 .form-control{
   background: transparent;
