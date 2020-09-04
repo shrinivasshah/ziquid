@@ -145,6 +145,19 @@ nav img {
   padding-left: 20px;
 }
 
+#enter:focus {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff !important;
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15) !important;
+  border-radius: 15px;
+}
+
 .buttonIn button {
   position: absolute;
   top: 7px;
@@ -181,6 +194,17 @@ nav img {
 
 .third {
   margin-bottom: 10vh;
+  position: relative;
+}
+
+.below {
+  opacity: 70%;
+  border-radius: 200%;
+  overflow: hidden;
+  position: absolute;
+  top: -150%;
+  right: 0%;
+  z-index: -2;
 }
 
 .fourth {
@@ -230,7 +254,6 @@ nav img {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-
 }
 
 .img-holder {
@@ -251,35 +274,178 @@ nav img {
   color: #1f556d;
 }
 
-.sixth{
+.sixth {
   margin-bottom: 20vh;
 }
 
-
-.seventh{
+.seventh {
   min-height: 70vh;
   width: 70vw;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-form{
-  height: 500px;
+form {
+
+  border-radius: 23px;
+  margin-top: -100px !important;
+  margin: 0 auto;
+  padding-top: 100px;
   width: 400px;
-  background:#fff;
+  height: 600px;
+  background: #fff;
+  box-shadow: 0px 20px 30px -10px rgba(104, 142, 176, 0.15);
+
 }
 
-.form-control{
-  background: transparent;
+form .form-group .form-control{
   border: none;
-  width: 70%;
+
 }
 
-input:focus{
+input:focus {
   background: transparent !important;
   outline: none !important;
   box-shadow: none !important;
 }
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fas {
+  margin-right: 10px;
+}
+.adjustment {
+  width: 60%;
+  margin: 0 auto;
+}
 
-hr{
-  width: 70%;
+
+#submit {
+  font-size: 1.2em;
+  font-family: Gilroy;
+  font-weight: 500;
+  margin-top: 150px;
+  color: white;
+  height: 50px;
+  width: 150px;
+  background: #141414;
+  border-radius: 10px;
+}
+
+.fa-arrow-right {
+  padding-left: 25px;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 30vh;
+}
+
+.footer_left {
+  width: 30%;
+}
+
+.logo_name img {
+  width: 200px;
+}
+
+.handles {
+  width: 100%;
+}
+
+.handles i {
+  font-size: 1.5em;
+  margin: 0 10px 0 0;
+  color: #7a8094;
+}
+
+.small {
+  margin-top: 90px;
+}
+
+small {
+  color: #7a8094;
+}
+
+.table-container {
+  height: 20vh;
+  width: 50%;
+}
+
+table {
+  height: 100%;
+  width: 60%;
+}
+th {
+  font-family: Gilroy;
+  color: #000;
+  font-weight: 900;
+}
+
+thead,
+tr {
+  margin-top: 20px;
+  width: 30%;
+}
+
+th,
+td {
+  width: 33%;
+}
+
+td {
+  color: #555a6b;
+}
+
+@media only screen and (max-width: 1639px) {
+  .form_container {
+    left: 0%;
+  }
+}
+
+
+@media only screen and (max-width: 1323px) {
+  .second_right {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  form {
+    margin-top: 5vh !important;
+  }
+
+  .row{
+    text-align:center ;
+  }
+
+  .fifth {
+    margin-bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .form_container {
+    margin-left: 0%;
+    margin-top: 0;
+  }
+  .seventh {
+    margin-bottom: 50vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form_container {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 521px) {
+  form{
+    margin-left:-20px ;
+  }
+
 }

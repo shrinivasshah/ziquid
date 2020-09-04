@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -61,12 +67,11 @@
             correctness and scalability is what makes us who we are.
           </p>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <img src="./svg1.png" class="img-fluid second_right" alt="" />
         </div>
       </div>
     </section>
-
     <section class="third">
       <div class="filler-holder text-center">
         <h1 class="title font-weight-bolder">50+ Crypto Assets</h1>
@@ -74,6 +79,7 @@
           The most In-demand Crypto tokens at your fingertips.
         </p>
       </div>
+      <img src="./Union.png" class="below" alt="" />
     </section>
 
     <section
@@ -156,8 +162,9 @@
     </section>
 
     <section class="seventh">
+      <div class="text-container"></div>
       <div class="row">
-        <div class="col-lg-6 colg-sm-12">
+        <div class="col-lg-6 col-md-12 colg-sm-12">
           <h1 class="title">Consult</h1>
           <p class="crypto_details">
             We offer a free consultation with our expert, where you get answers
@@ -165,29 +172,88 @@
             project.
           </p>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <form>
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Name"/>
+            <div class="adjustment">
+              <div class="form-group">
+                <i class="fas fa-user"></i>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+              <hr />
+              <div class="form-group">
+                <i class="fas fa-phone"></i>
+                <input type="text" class="form-control" placeholder="Phone" />
+              </div>
+              <hr />
+              <div class="form-group">
+                <i class="fas fa-at"></i>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <hr />
+
+              <button class="float-right" id="submit">
+                Submit<i class="fas fa-arrow-right"></i>
+              </button>
             </div>
-            <hr/>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Phone"/>
-            </div>
-            <hr/>
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <hr/>
           </form>
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="d-flex flex-wrap">
+        <div class="d-flex flex-column footer_left">
+          <div class="logo_name">
+            <img src="./Logo.png" alt="logo" />
+            <h6 class="crypto_details">THE FUTURE OF CRYPTO BHARAT</h6>
+          </div>
+          <div class="handles d-flex flex-around">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-medium"></i>
+            <i class="fab fa-discord"></i>
+          </div>
+          <div class="small">
+            <small>Helping BUIDL. One block at a time.</small>
+          </div>
+        </div>
+
+        <div class="table-container flex-grow-1 d-flex justify-content-end">
+          <table>
+            <thead>
+              <th>Products</th>
+              <th>Company</th>
+              <th>Contact</th>
+            </thead>
+            <tr>
+              <td>Pocketbits</td>
+              <td>About Us</td>
+              <td>Get In Touch</td>
+            </tr>
+            <tr>
+              <td>Zelta</td>
+              <td>Blog</td>
+              <td>Faq</td>
+            </tr>
+            <tr>
+              <td>Coinshots</td>
+              <td>We are Hiring</td>
+              <td>Media Assets</td>
+            </tr>
+            <tr>
+              <td>CoinSIP</td>
+            </tr>
+          </table>
+        </div>
+        <small></small>
+      </div>
+    </footer>
 
     <!-- JS, Popper.js, and jQuery -->
     <script
